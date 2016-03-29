@@ -1,0 +1,51 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int kode_hari;
+cout<<"1. senin"<<endl;
+cout<<"2. selasa"<<endl;
+cout<<"3. rabu"<<endl;
+cout<<"4. kamis"<<endl;
+cout<<"5. jumat"<<endl;
+cout<<"6. sabtu"<<endl;
+cout<<"7. minggu"<<endl;
+cout<<"pilih hari : ";
+cin>>kode_hari;
+
+switch(kode_hari){
+case 1:
+    cout<<"anda memilih hari";
+    cout<<"senin"<<endl;
+    break;
+case 2:
+    cout<<"anda memilih hari";
+    cout<<"selasa"<<endl;
+    break;
+case 3:
+    cout<<"anda memilih hari";
+    cout<<"rabu"<<endl;
+    break;
+case 4:
+    cout<<"anda memilih hari";
+    cout<<"kamis"<<endl;
+    break;
+case 5:
+    cout<<"anda memilih hari";
+    cout<<"jumat"<<endl;
+    break;
+case 6:
+    cout<<"anda memilih hari";
+    cout<<"sabtu"<<endl;
+    break;
+case 7:
+    cout<<"anda memilih hari";
+    cout<<"minggu"<<endl;
+    break;
+default :
+    cout<<endl<<"tidak ada pilihan"<<endl;
+}
+
+return 0;
